@@ -1,0 +1,14 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}
+Page 1
+{% endblock %}
+
+{% block content %}
+<h2>Welcome to Page 1</h2>
+<p>This is the content of Page 1.</p>
+
+<div>
+    {{ flatpage.content }}
+</div>
+{% endblock %}
